@@ -1,0 +1,103 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  
+}
+main{
+    width: 375px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 50px;
+    padding: 0;
+    
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+
+    justify-content: space-between;
+}
+.img-profile{
+    display: flex;
+    padding: 10px;
+}
+.per{
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+
+.country{
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.perbogan{
+    width: 34px;
+    height: 34px;
+}
+.para{
+    margin-left: 10px ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.para p{
+    margin: 0;
+}
+.pro-img{
+    width: 375px;
+    height: 375px;
+}
+
+  .fa-regular{
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+  .social{
+    padding: 10px 5px;
+    text-align: left;
+    
+}
+.social i {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        
+      }
+      
+      .social i:hover {
+        transform: scale(1.2);
+      }
+      
+  .likes{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    padding: 0px 20px;
+}
+.comment{
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-align: left;
+    
+}
+.out{
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin: 0px 20px ;
+    
+}
